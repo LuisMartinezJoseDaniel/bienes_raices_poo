@@ -1,0 +1,21 @@
+@include tablet{
+  .contenido-nosotros{
+    @include grid(2, 2rem);
+    
+  }
+}
+.texto-nosotros{
+  blockquote{
+    font-weight: $black;
+    margin-left: 0;
+    font-size: 2.2rem;
+    text-align: left;
+    padding: 1rem 0 3rem;
+    @include tablet{
+      margin-top: 0;
+    }
+  }
+  p{
+    line-height: 2;
+  }
+}

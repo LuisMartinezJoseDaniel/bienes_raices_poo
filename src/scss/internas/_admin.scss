@@ -1,0 +1,40 @@
+.alerta{
+  padding: .5rem;
+  text-align: center;
+  font-weight: $bold;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  &.error{
+    background-color: darken($rojo, 5%);
+    border: 1px solid darken($color: $rojo, $amount: 25%);
+  }
+  &.exito{
+    background-color: $verde;
+    color: $blanco;
+  }
+}
+
+//* Tablas
+
+table.propiedades{
+  margin-top: 4rem;
+  width: 100%;
+  border-spacing: 0;
+
+  thead{
+    background-color: darken($verde, $amount: 10);
+    th{
+      padding: 2rem;
+      color: $blanco;
+
+    }
+  }
+  .imagen-tabla{
+    width: 100px;
+  }
+}
+
+.imagen-small{
+  width: 20rem;
+}
